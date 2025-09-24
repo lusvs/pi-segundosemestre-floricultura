@@ -1,4 +1,4 @@
-header {
+.navheader{
     width: 100%;
     height: 100px;
 
@@ -7,8 +7,7 @@ header {
     align-items: center;
     justify-content: space-around;
 
-    box-shadow: 3px 3px 8px black;
-    /* border: solid black 1px; */
+    /* box-shadow: 3px 3px 8px black; Não funciona */
 }
 
 .logo {
@@ -34,12 +33,14 @@ header {
 }
 
 main {
-    /* height: 500px; */
     width: 100%;
     background-color: #F0F0F0;
+    
 }
 
 main .container {
+    width: 100%;
+    height: 87vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,15 +61,56 @@ main .container nav {
 }
 
 main .container nav div {
+    width: 220px;
+    height: 87px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 193px;
-    height: 87px;
+    
     background-color: white;
     /* border: solid black; */
     border-radius: 5px;
     gap: 21px;
     font-family: cursive;
+    box-shadow: 3px 3px 8px black;
+}
+
+main .container .banner{
+    height: 60%;
+}
+
+
+
+.flores{
+    margin: 0px 200px;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+main .fileira{
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 50px;
+    padding: 140px 150px;
+
+    background-color: #ffffff;
+    box-shadow: 3px 3px 8px black;
+}
+
+main .bloco{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     box-shadow: 3px 3px 8px black;
 }
