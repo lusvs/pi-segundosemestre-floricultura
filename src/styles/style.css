@@ -146,22 +146,23 @@ main .bloco img{
     box-shadow: 3px 3px 8px black;
 }
 
-main .fileirainfo{
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.fileirainfo{
     width: 100%;
     height: 200px;
     
     display: flex;
     align-items: center;
     gap: 50px;
-    padding: 140px 150px;
-
+    padding: 0px 150px;
+    /* border: solid black 1px; */
     background-color: #ffffff;
-}
-
-.infos{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
 }
 
 .infos .infobloco{
@@ -174,7 +175,7 @@ main .fileirainfo{
     justify-content: center;
     text-align: center;
     gap: 5px;
-
+    /* border: solid black 1px; */
     /* box-shadow: 3px 3px 8px black; */
 }
 
