@@ -22,20 +22,20 @@
 
           <div class="entradas">
             <div>
-              <label for=""></label>
-              <input type="email" placeholder="Email" required />
+              <label for="txtUsuario"></label>
+              <input id="txtUsuario" type="email" placeholder="Email" required />
             </div>
 
             <div>
-              <label for=""></label>
-              <input type="password" placeholder="Senha" required minlength="3" />
+              <label for="txtSenha"></label>
+              <input id="txtSenha" type="password" placeholder="Senha" required minlength="3" />
             </div>
           </div>
 
 
 
           <div class="actions">
-            <button type="submit" value="Entrar" class="btn">Entrar</button>
+            <button onclick="login()" type="button" value="Entrar" class="btn">Entrar</button>
 
             <div class="links">
               <a href="/src/components/login/indexRecuperar.html">Esqueceu a senha ?</a>
@@ -46,8 +46,11 @@
           </div>
         </div>
       </form>
+
+      <p id="mensagem"></p>
     </div>
   </main>
+  <script src="/src/scripts/login.js"></script>
 </body>
 
 </html>
