@@ -165,13 +165,13 @@ main .bloco{
     gap: 5px;
 
     /* border: solid black 1px; */
-    /* box-shadow: 3px 3px 8px black; */
+    /* box-shadow: 3px 3px 8px rgb(255, 0, 0); */
 }
 
 main .bloco img{
     width: 100%;
     height: 100%;
-    box-shadow: 3px 3px 8px black;
+    /* box-shadow: 3px 3px 8px black; */
 }
 
 .infos{
